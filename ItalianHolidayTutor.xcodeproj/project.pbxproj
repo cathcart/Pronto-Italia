@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1788D40714CBAFEE31898021 /* LearningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9841BCC6C07E58B24BE8700 /* LearningData.swift */; };
+		17E9B8828352AEAA815AB7F7 /* PhrasebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0CF60269C5F3987DA14B42 /* PhrasebookView.swift */; };
+		185E6A851ED06C80AD1A1BF7 /* ItalianHolidayTutorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2CDE99AE8F31B7FF0C0D3 /* ItalianHolidayTutorApp.swift */; };
+		3022295E7FBCA277E06D2E7E /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E464AD10355B6EE91862C33 /* DashboardView.swift */; };
+		7D36D7681B5038B1C991645D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756ECAF720FBBA158C6D9CBD /* Models.swift */; };
+		883FF5571BC88A305DFEC978 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B6907656C98B2627230B56 /* ContentView.swift */; };
+		B0C37D8492A714BFAA7BA059 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628313219FE20EA0D164C091 /* ReviewView.swift */; };
+		B6F6475652674F5A203DFE1E /* ListeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99C0E5EB79081FF21FFD390 /* ListeningView.swift */; };
+		BBFCEDCF557AC51B4347E4FA /* ScenarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8EA606461362E7C04B943B /* ScenarioView.swift */; };
+		C5198048A55370C1EA02DED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5611C7BB8F7141010885A2BA /* Assets.xcassets */; };
+		E2D6CDF992381CE88E939D12 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385F0ED7B192BBBD308117F /* Components.swift */; };
+		F723A6E18958BF37541694CA /* ReviewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC12E1AE373DB6B2C41AB5F9 /* ReviewStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F8EA606461362E7C04B943B /* ScenarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenarioView.swift; sourceTree = "<group>"; };
+		38AA69BD10EE4C748098CFA0 /* Pronto Italia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pronto Italia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0CF60269C5F3987DA14B42 /* PhrasebookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhrasebookView.swift; sourceTree = "<group>"; };
+		4BE2CDE99AE8F31B7FF0C0D3 /* ItalianHolidayTutorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItalianHolidayTutorApp.swift; sourceTree = "<group>"; };
+		5611C7BB8F7141010885A2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E464AD10355B6EE91862C33 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		628313219FE20EA0D164C091 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		66B6907656C98B2627230B56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		756ECAF720FBBA158C6D9CBD /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B385F0ED7B192BBBD308117F /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		B99C0E5EB79081FF21FFD390 /* ListeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningView.swift; sourceTree = "<group>"; };
+		EC12E1AE373DB6B2C41AB5F9 /* ReviewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewStore.swift; sourceTree = "<group>"; };
+		F9841BCC6C07E58B24BE8700 /* LearningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		004531C363496BDBD7EFB504 = {
+			isa = PBXGroup;
+			children = (
+				6BA00D4504B069DC91B69EAB /* ItalianHolidayTutor */,
+				F7C097560CEE14CF4A8FD607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BA00D4504B069DC91B69EAB /* ItalianHolidayTutor */ = {
+			isa = PBXGroup;
+			children = (
+				4BE2CDE99AE8F31B7FF0C0D3 /* ItalianHolidayTutorApp.swift */,
+				66B6907656C98B2627230B56 /* ContentView.swift */,
+				756ECAF720FBBA158C6D9CBD /* Models.swift */,
+				F9841BCC6C07E58B24BE8700 /* LearningData.swift */,
+				EC12E1AE373DB6B2C41AB5F9 /* ReviewStore.swift */,
+				86F159045BEFDA1DA7F5F2E4 /* Views */,
+				5611C7BB8F7141010885A2BA /* Assets.xcassets */,
+			);
+			path = ItalianHolidayTutor;
+			sourceTree = "<group>";
+		};
+		86F159045BEFDA1DA7F5F2E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B385F0ED7B192BBBD308117F /* Components.swift */,
+				5E464AD10355B6EE91862C33 /* DashboardView.swift */,
+				4B0CF60269C5F3987DA14B42 /* PhrasebookView.swift */,
+				628313219FE20EA0D164C091 /* ReviewView.swift */,
+				1F8EA606461362E7C04B943B /* ScenarioView.swift */,
+				B99C0E5EB79081FF21FFD390 /* ListeningView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7C097560CEE14CF4A8FD607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38AA69BD10EE4C748098CFA0 /* Pronto Italia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9924895DAB88134C63E5570D /* Pronto Italia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014D32F15C36C37F657C46A4 /* Build configuration list for PBXNativeTarget "Pronto Italia" */;
+			buildPhases = (
+				F139A75A16CD046C9AB9DCB9 /* Sources */,
+				B18C159943652A76FB142EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pronto Italia";
+			productName = "Pronto Italia";
+			productReference = 38AA69BD10EE4C748098CFA0 /* Pronto Italia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C9EF8272D8EE793CD4D9AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9924895DAB88134C63E5570D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 3E50466C52B8F24C99744300 /* Build configuration list for PBXProject "ItalianHolidayTutor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 004531C363496BDBD7EFB504;
+			productRefGroup = F7C097560CEE14CF4A8FD607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9924895DAB88134C63E5570D /* Pronto Italia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B18C159943652A76FB142EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5198048A55370C1EA02DED9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F139A75A16CD046C9AB9DCB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185E6A851ED06C80AD1A1BF7 /* ItalianHolidayTutorApp.swift in Sources */,
+				883FF5571BC88A305DFEC978 /* ContentView.swift in Sources */,
+				7D36D7681B5038B1C991645D /* Models.swift in Sources */,
+				1788D40714CBAFEE31898021 /* LearningData.swift in Sources */,
+				F723A6E18958BF37541694CA /* ReviewStore.swift in Sources */,
+				E2D6CDF992381CE88E939D12 /* Components.swift in Sources */,
+				3022295E7FBCA277E06D2E7E /* DashboardView.swift in Sources */,
+				17E9B8828352AEAA815AB7F7 /* PhrasebookView.swift in Sources */,
+				B0C37D8492A714BFAA7BA059 /* ReviewView.swift in Sources */,
+				BBFCEDCF557AC51B4347E4FA /* ScenarioView.swift in Sources */,
+				B6F6475652674F5A203DFE1E /* ListeningView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		73C3AD290BBBF0B1542BA273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = RZ4NGUXBP6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pronto Italia";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ProntoItalia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A77DCFFD3D01C4DED155D649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E534B381CBBB6892EE212673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F811052A5DC427E1A76A4ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = RZ4NGUXBP6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pronto Italia";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ProntoItalia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		014D32F15C36C37F657C46A4 /* Build configuration list for PBXNativeTarget "Pronto Italia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73C3AD290BBBF0B1542BA273 /* Debug */,
+				F811052A5DC427E1A76A4ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E50466C52B8F24C99744300 /* Build configuration list for PBXProject "ItalianHolidayTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77DCFFD3D01C4DED155D649 /* Debug */,
+				E534B381CBBB6892EE212673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C9EF8272D8EE793CD4D9AD /* Project object */;
+}
