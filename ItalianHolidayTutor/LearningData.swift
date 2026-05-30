@@ -173,6 +173,339 @@ enum LearningData {
             keywords: ["conto", "favore"]
         ),
         Phrase(
+            id: "food-menu-antipasti",
+            category: .food,
+            italian: "Antipasti",
+            english: "Starters or appetisers.",
+            chunk: "anti",
+            note: "Often small plates before pasta or a main course.",
+            keywords: ["antipasti", "starters", "appetisers"]
+        ),
+        Phrase(
+            id: "food-menu-primi",
+            category: .food,
+            italian: "Primi piatti",
+            english: "First courses, usually pasta, risotto, soup, or gnocchi.",
+            chunk: "primi",
+            note: "Primi are normally not the main meat or fish course.",
+            keywords: ["primi", "piatti", "pasta", "risotto", "gnocchi"]
+        ),
+        Phrase(
+            id: "food-menu-secondi",
+            category: .food,
+            italian: "Secondi piatti",
+            english: "Second courses, usually meat, fish, or a main protein.",
+            chunk: "secondi",
+            note: "Side dishes often need to be ordered separately.",
+            keywords: ["secondi", "piatti", "meat", "fish"]
+        ),
+        Phrase(
+            id: "food-menu-contorni",
+            category: .food,
+            italian: "Contorni",
+            english: "Side dishes.",
+            chunk: "contorni",
+            note: "Look here for vegetables, potatoes, salad, and sides.",
+            keywords: ["contorni", "side", "vegetables"]
+        ),
+        Phrase(
+            id: "food-menu-dolci",
+            category: .food,
+            italian: "Dolci",
+            english: "Desserts.",
+            chunk: "dolci",
+            note: "You may also see dessert listed as dessert or dolce.",
+            keywords: ["dolci", "dessert"]
+        ),
+        Phrase(
+            id: "food-menu-coperto",
+            category: .food,
+            italian: "Coperto",
+            english: "Cover charge.",
+            chunk: "coperto",
+            note: "A per-person table charge that can appear on the bill.",
+            keywords: ["coperto", "charge", "bill"]
+        ),
+        Phrase(
+            id: "food-menu-service",
+            category: .food,
+            italian: "Servizio incluso",
+            english: "Service included.",
+            chunk: "servizio",
+            note: "Useful to recognise before adding an extra tip.",
+            keywords: ["servizio", "incluso", "tip"]
+        ),
+        Phrase(
+            id: "food-menu-dish-day",
+            category: .food,
+            italian: "Qual è il piatto del giorno?",
+            english: "What is the dish of the day?",
+            chunk: "piatto del giorno",
+            note: "A good way to ask about a fresh or daily special.",
+            keywords: ["piatto", "giorno", "special"]
+        ),
+        Phrase(
+            id: "food-menu-al-forno",
+            category: .food,
+            italian: "Al forno",
+            english: "Baked or oven-cooked.",
+            chunk: "forno",
+            note: "You will see this with pasta, vegetables, fish, or potatoes.",
+            keywords: ["forno", "baked", "oven"]
+        ),
+        Phrase(
+            id: "food-menu-alla-griglia",
+            category: .food,
+            italian: "Alla griglia",
+            english: "Grilled.",
+            chunk: "griglia",
+            note: "Common with fish, steak, vegetables, and chicken.",
+            keywords: ["griglia", "grilled"]
+        ),
+        Phrase(
+            id: "food-menu-fritto",
+            category: .food,
+            italian: "Fritto",
+            english: "Fried.",
+            chunk: "fritto",
+            note: "Fritto misto is mixed fried seafood or vegetables.",
+            keywords: ["fritto", "fried"]
+        ),
+        Phrase(
+            id: "food-menu-crudo",
+            category: .food,
+            italian: "Crudo",
+            english: "Raw or cured.",
+            chunk: "crudo",
+            note: "Often appears with fish, seafood, ham, or carpaccio.",
+            keywords: ["crudo", "raw", "cured"]
+        ),
+        Phrase(
+            id: "food-menu-affumicato",
+            category: .food,
+            italian: "Affumicato",
+            english: "Smoked.",
+            chunk: "affumicato",
+            note: "Useful for fish, cheese, and cured meat descriptions.",
+            keywords: ["affumicato", "smoked"]
+        ),
+        Phrase(
+            id: "food-menu-piccante",
+            category: .food,
+            italian: "È piccante?",
+            english: "Is it spicy?",
+            chunk: "piccante",
+            note: "A compact question before ordering.",
+            keywords: ["piccante", "spicy"]
+        ),
+        Phrase(
+            id: "food-menu-pomodoro",
+            category: .food,
+            italian: "Al pomodoro",
+            english: "With tomato sauce.",
+            chunk: "pomodoro",
+            note: "A very common pasta and sauce word.",
+            keywords: ["pomodoro", "tomato"]
+        ),
+        Phrase(
+            id: "food-menu-funghi",
+            category: .food,
+            italian: "Ai funghi",
+            english: "With mushrooms.",
+            chunk: "funghi",
+            note: "Funghi can appear with pasta, pizza, risotto, or meat.",
+            keywords: ["funghi", "mushrooms"]
+        ),
+        Phrase(
+            id: "food-menu-tartufo",
+            category: .food,
+            italian: "Al tartufo",
+            english: "With truffle.",
+            chunk: "tartufo",
+            note: "Often found in pasta, risotto, eggs, and sauces.",
+            keywords: ["tartufo", "truffle"]
+        ),
+        Phrase(
+            id: "food-menu-frutti-mare",
+            category: .food,
+            italian: "Frutti di mare",
+            english: "Seafood.",
+            chunk: "mare",
+            note: "Literally fruits of the sea.",
+            keywords: ["frutti", "mare", "seafood"]
+        ),
+        Phrase(
+            id: "food-menu-cozze",
+            category: .food,
+            italian: "Cozze",
+            english: "Mussels.",
+            chunk: "cozze",
+            note: "Useful for seafood pasta and starters.",
+            keywords: ["cozze", "mussels"]
+        ),
+        Phrase(
+            id: "food-menu-vongole",
+            category: .food,
+            italian: "Vongole",
+            english: "Clams.",
+            chunk: "vongole",
+            note: "Spaghetti alle vongole is a classic menu item.",
+            keywords: ["vongole", "clams"]
+        ),
+        Phrase(
+            id: "food-menu-gamberi",
+            category: .food,
+            italian: "Gamberi",
+            english: "Prawns or shrimp.",
+            chunk: "gamberi",
+            note: "Look for gamberi in pasta, salads, and seafood dishes.",
+            keywords: ["gamberi", "prawns", "shrimp"]
+        ),
+        Phrase(
+            id: "food-menu-pesce-giorno",
+            category: .food,
+            italian: "Pesce del giorno",
+            english: "Fish of the day.",
+            chunk: "pesce",
+            note: "Ask how it is cooked if the menu is brief.",
+            keywords: ["pesce", "giorno", "fish"]
+        ),
+        Phrase(
+            id: "food-menu-branzino",
+            category: .food,
+            italian: "Branzino",
+            english: "Sea bass.",
+            chunk: "branzino",
+            note: "A common whole fish or fillet on dinner menus.",
+            keywords: ["branzino", "bass", "fish"]
+        ),
+        Phrase(
+            id: "food-menu-orata",
+            category: .food,
+            italian: "Orata",
+            english: "Sea bream.",
+            chunk: "orata",
+            note: "Common grilled or baked.",
+            keywords: ["orata", "bream", "fish"]
+        ),
+        Phrase(
+            id: "food-menu-bistecca",
+            category: .food,
+            italian: "Bistecca",
+            english: "Steak.",
+            chunk: "bistecca",
+            note: "Bistecca alla fiorentina is a famous Tuscan steak.",
+            keywords: ["bistecca", "steak"]
+        ),
+        Phrase(
+            id: "food-menu-pollo",
+            category: .food,
+            italian: "Pollo",
+            english: "Chicken.",
+            chunk: "pollo",
+            note: "A simple high-frequency meat word.",
+            keywords: ["pollo", "chicken"]
+        ),
+        Phrase(
+            id: "food-menu-maiale",
+            category: .food,
+            italian: "Maiale",
+            english: "Pork.",
+            chunk: "maiale",
+            note: "Useful if you avoid pork.",
+            keywords: ["maiale", "pork"]
+        ),
+        Phrase(
+            id: "food-menu-agnello",
+            category: .food,
+            italian: "Agnello",
+            english: "Lamb.",
+            chunk: "agnello",
+            note: "Often roasted, grilled, or served as chops.",
+            keywords: ["agnello", "lamb"]
+        ),
+        Phrase(
+            id: "food-menu-risotto",
+            category: .food,
+            italian: "Risotto",
+            english: "Creamy rice dish.",
+            chunk: "risotto",
+            note: "Often a primo, not a side dish.",
+            keywords: ["risotto", "rice"]
+        ),
+        Phrase(
+            id: "food-menu-gnocchi",
+            category: .food,
+            italian: "Gnocchi",
+            english: "Small potato dumplings.",
+            chunk: "gnocchi",
+            note: "Usually served as a first course with sauce.",
+            keywords: ["gnocchi", "dumplings"]
+        ),
+        Phrase(
+            id: "food-menu-ravioli",
+            category: .food,
+            italian: "Ravioli",
+            english: "Stuffed pasta parcels.",
+            chunk: "ravioli",
+            note: "Often filled with ricotta, spinach, meat, or pumpkin.",
+            keywords: ["ravioli", "stuffed", "pasta"]
+        ),
+        Phrase(
+            id: "food-menu-tagliatelle-ragu",
+            category: .food,
+            italian: "Tagliatelle al ragù",
+            english: "Ribbon pasta with meat sauce.",
+            chunk: "ragù",
+            note: "Ragù usually means a slow-cooked meat sauce.",
+            keywords: ["tagliatelle", "ragù", "meat", "sauce"]
+        ),
+        Phrase(
+            id: "food-menu-tiramisu",
+            category: .food,
+            italian: "Tiramisù",
+            english: "Coffee and mascarpone dessert.",
+            chunk: "tiramisù",
+            note: "One of the most recognisable Italian desserts.",
+            keywords: ["tiramisù", "dessert", "coffee"]
+        ),
+        Phrase(
+            id: "food-menu-panna-cotta",
+            category: .food,
+            italian: "Panna cotta",
+            english: "Set cream dessert.",
+            chunk: "panna",
+            note: "Panna means cream.",
+            keywords: ["panna", "cotta", "cream", "dessert"]
+        ),
+        Phrase(
+            id: "food-menu-vino-casa",
+            category: .food,
+            italian: "Vino della casa",
+            english: "House wine.",
+            chunk: "vino",
+            note: "Often available by glass, carafe, half litre, or litre.",
+            keywords: ["vino", "casa", "wine"]
+        ),
+        Phrase(
+            id: "food-menu-contains-nuts",
+            category: .food,
+            italian: "Contiene noci?",
+            english: "Does it contain nuts?",
+            chunk: "contiene",
+            note: "Contiene means contains.",
+            keywords: ["contiene", "noci", "nuts"]
+        ),
+        Phrase(
+            id: "food-menu-dairy-free",
+            category: .food,
+            italian: "Senza latticini",
+            english: "Dairy-free.",
+            chunk: "senza",
+            note: "Useful for recognising or requesting no dairy.",
+            keywords: ["senza", "latticini", "dairy"]
+        ),
+        Phrase(
             id: "money-cost",
             category: .money,
             italian: "Quanto costa?",
@@ -500,6 +833,44 @@ enum LearningData {
                 words: ["Il", "conto,", "per", "favore."]
             ),
             outputPrompt: "Ask for a table for two, choose sparkling water, and ask for the bill."
+        ),
+        TravelScenario(
+            title: "Reading the menu",
+            setting: "Trattoria menu",
+            goal: "Decode courses, cooking styles, seafood, meat, and dessert before ordering.",
+            systemImage: "list.bullet.rectangle.fill",
+            focusChunks: ["primi piatti", "secondi piatti", "alla griglia", "frutti di mare", "piatto del giorno"],
+            phrases: phrases(with: [
+                "food-menu-antipasti",
+                "food-menu-primi",
+                "food-menu-secondi",
+                "food-menu-contorni",
+                "food-menu-alla-griglia",
+                "food-menu-frutti-mare",
+                "food-menu-pesce-giorno",
+                "food-menu-tiramisu",
+                "food-menu-coperto"
+            ]),
+            questions: [
+                PracticeQuestion(
+                    prompt: "On the menu you see contorni.",
+                    options: ["Side dishes", "Desserts", "Service included"],
+                    answer: "Side dishes",
+                    explanation: "Contorni are side dishes such as vegetables, potatoes, or salad."
+                ),
+                PracticeQuestion(
+                    prompt: "A fish dish is described as alla griglia.",
+                    options: ["Grilled", "Fried", "Raw"],
+                    answer: "Grilled",
+                    explanation: "Alla griglia means grilled."
+                )
+            ],
+            reconstruction: ReconstructionExercise(
+                englishPrompt: "What is the dish of the day?",
+                target: "Qual è il piatto del giorno?",
+                words: ["Qual", "è", "il", "piatto", "del", "giorno?"]
+            ),
+            outputPrompt: "Ask what the dish of the day is, then ask whether a dish contains nuts."
         ),
         TravelScenario(
             title: "Finding your way",

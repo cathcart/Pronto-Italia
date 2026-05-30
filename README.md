@@ -5,9 +5,9 @@ Pronto Italia is a holiday-focused Italian app available in two forms: an instal
 ## What is in the app
 
 - **Today**: a 15-minute learning loop using spaced review, input flood, text reconstruction, and pushed output.
-- **Phrases**: searchable travel phrasebook with Italian text, English meaning, useful chunks, notes, and text-to-speech pronunciation.
+- **Phrases**: searchable travel phrasebook with Italian text, English meaning, useful chunks, notes, menu-decoder vocabulary, and text-to-speech pronunciation.
 - **Review**: local spaced flashcards. Missed cards return quickly; confident cards move farther out.
-- **Practice**: real holiday scenarios with recognition checks, phrase clusters, sentence reconstruction, and spoken prompts.
+- **Practice**: real holiday scenarios with recognition checks, phrase clusters, sentence reconstruction, dinner menu decoding, and spoken prompts.
 - **Listen**: learner and native listening sources with small missions so listening stays active rather than passive.
 
 ## Research-informed choices

@@ -1,12 +1,12 @@
 "use strict";
 
-const CACHE_NAME = "pronto-italia-shell-v1";
+const CACHE_NAME = "pronto-italia-shell-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./styles.css",
-  "./data.js",
-  "./app.js",
+  "./styles.css?v=2",
+  "./data.js?v=2",
+  "./app.js?v=2",
   "./manifest.webmanifest",
   "./assets/icon-192.png",
   "./assets/icon-512.png",
