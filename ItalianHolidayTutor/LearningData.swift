@@ -317,6 +317,24 @@ enum LearningData {
             keywords: ["funghi", "mushrooms"]
         ),
         Phrase(
+            id: "food-menu-porcini",
+            category: .food,
+            italian: "Funghi porcini",
+            english: "Porcini mushrooms.",
+            chunk: "porcini",
+            note: "A prized mushroom often found with pasta, risotto, or meat.",
+            keywords: ["funghi", "porcini", "mushrooms"]
+        ),
+        Phrase(
+            id: "food-menu-champignon",
+            category: .food,
+            italian: "Champignon",
+            english: "Button mushrooms.",
+            chunk: "champignon",
+            note: "Often used for common cultivated mushrooms.",
+            keywords: ["champignon", "mushrooms"]
+        ),
+        Phrase(
             id: "food-menu-tartufo",
             category: .food,
             italian: "Al tartufo",
@@ -452,6 +470,42 @@ enum LearningData {
             keywords: ["ravioli", "stuffed", "pasta"]
         ),
         Phrase(
+            id: "food-menu-uovo",
+            category: .food,
+            italian: "Uovo",
+            english: "Egg.",
+            chunk: "uovo",
+            note: "Singular egg. The plural is uova.",
+            keywords: ["uovo", "egg"]
+        ),
+        Phrase(
+            id: "food-menu-uova",
+            category: .food,
+            italian: "Uova",
+            english: "Eggs.",
+            chunk: "uova",
+            note: "Common in pasta dough, carbonara, frittata, desserts, and sauces.",
+            keywords: ["uova", "eggs"]
+        ),
+        Phrase(
+            id: "food-menu-frittata",
+            category: .food,
+            italian: "Frittata",
+            english: "Italian omelette.",
+            chunk: "frittata",
+            note: "A clear sign that eggs are central to the dish.",
+            keywords: ["frittata", "egg", "omelette"]
+        ),
+        Phrase(
+            id: "food-menu-carbonara",
+            category: .food,
+            italian: "Alla carbonara",
+            english: "With egg, cheese, pepper, and cured pork.",
+            chunk: "carbonara",
+            note: "Carbonara sauce traditionally contains egg.",
+            keywords: ["carbonara", "uova", "egg", "pork"]
+        ),
+        Phrase(
             id: "food-menu-tagliatelle-ragu",
             category: .food,
             italian: "Tagliatelle al ragù",
@@ -479,6 +533,42 @@ enum LearningData {
             keywords: ["panna", "cotta", "cream", "dessert"]
         ),
         Phrase(
+            id: "food-menu-fragole",
+            category: .food,
+            italian: "Fragole",
+            english: "Strawberries.",
+            chunk: "fragole",
+            note: "The singular is fragola.",
+            keywords: ["fragole", "strawberries"]
+        ),
+        Phrase(
+            id: "food-menu-fragola",
+            category: .food,
+            italian: "Alla fragola",
+            english: "Strawberry-flavoured or with strawberry.",
+            chunk: "fragola",
+            note: "Common for gelato, desserts, yoghurt, and sauces.",
+            keywords: ["fragola", "strawberry", "gelato"]
+        ),
+        Phrase(
+            id: "food-menu-fragole-panna",
+            category: .food,
+            italian: "Fragole con panna",
+            english: "Strawberries with cream.",
+            chunk: "con panna",
+            note: "A simple dessert phrase that often appears in season.",
+            keywords: ["fragole", "panna", "strawberries", "cream"]
+        ),
+        Phrase(
+            id: "food-menu-crostata-fragole",
+            category: .food,
+            italian: "Crostata alle fragole",
+            english: "Strawberry tart.",
+            chunk: "alle fragole",
+            note: "Crostata is a tart or jam tart style dessert.",
+            keywords: ["crostata", "fragole", "tart", "strawberry"]
+        ),
+        Phrase(
             id: "food-menu-vino-casa",
             category: .food,
             italian: "Vino della casa",
@@ -495,6 +585,24 @@ enum LearningData {
             chunk: "contiene",
             note: "Contiene means contains.",
             keywords: ["contiene", "noci", "nuts"]
+        ),
+        Phrase(
+            id: "food-menu-contains-eggs",
+            category: .food,
+            italian: "Contiene uova?",
+            english: "Does it contain eggs?",
+            chunk: "contiene",
+            note: "Useful for checking pasta, sauces, desserts, and fried coatings.",
+            keywords: ["contiene", "uova", "eggs"]
+        ),
+        Phrase(
+            id: "food-menu-egg-free",
+            category: .food,
+            italian: "Senza uova",
+            english: "Egg-free.",
+            chunk: "senza",
+            note: "Senza means without.",
+            keywords: ["senza", "uova", "egg-free"]
         ),
         Phrase(
             id: "food-menu-dairy-free",
@@ -845,9 +953,12 @@ enum LearningData {
                 "food-menu-primi",
                 "food-menu-secondi",
                 "food-menu-contorni",
+                "food-menu-funghi",
+                "food-menu-uova",
                 "food-menu-alla-griglia",
                 "food-menu-frutti-mare",
                 "food-menu-pesce-giorno",
+                "food-menu-fragole",
                 "food-menu-tiramisu",
                 "food-menu-coperto"
             ]),
